@@ -1,0 +1,175 @@
+body {
+    background-color: #d6d5d5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .container {
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+  }
+  
+  .side-bar {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 4px 0 4px rgb(51, 51, 51);
+  }
+  
+  .side-bar h3 {
+    text-align: center;
+  }
+  
+  .side-bar hr {
+    background-color: white;
+  }
+  
+  .side-bar i {
+    margin-right: 10px;
+    text-align: center;
+  }
+  
+  .side-bar img {
+    border-radius: 180px;
+    border: 4px solid white;
+    margin-left: 50px;
+    box-shadow: 4px 4px 4px 4px black;
+  }
+  
+  .side-bar ul li {
+    margin-bottom: 20px;
+    margin-left: -10px;
+  }
+  
+  .side-bar ul a {
+    text-decoration: none;
+    text-align: left;
+    color: white;
+  }
+  
+  .side-bar ul li {
+    width: 150px;
+    text-align: center;
+    height: 25px;
+    padding: 2px;
+    box-sizing: border-box;
+  }
+  
+  .side-bar ul li:hover {
+    background-color: rgba(8, 8, 8, 0.795);
+    border-radius: 30px;
+    border-bottom: .5px solid white;
+  }
+  
+  .container .konten {
+    margin-left: 20%;
+    color: white;
+  }
+  
+  .container .konten .personal-data {
+    box-shadow: 4px 4px 4px rgb(73, 73, 73);
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(36, 36, 36);
+  }
+  
+  .container .konten .research {
+    float: left;
+    box-shadow: 4px 4px 4px rgb(73, 73, 73);
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    width: 500px;
+    background-color: rgb(36, 36, 36);
+  }
+  
+  .container .konten .employement {
+    margin-left: 49%;
+    box-shadow: 4px 4px 4px rgb(73, 73, 73);
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    background-color: rgb(36, 36, 36);
+  }
+  
+  .container .konten .employement ul li {
+    list-style: none;
+  }
+  
+  .container .konten .education {
+    float: left;
+    box-shadow: 4px 4px 4px rgb(73, 73, 73);
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    background-color: rgb(36, 36, 36);
+    width: 500px;
+  }
+  
+  .container .konten .education a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .container .konten .education a:hover {
+    color: #f4abc4;
+  }
+  
+  .container .konten .organization {
+    margin-left: 49%;
+    box-shadow: 4px 4px 4px rgb(73, 73, 73);
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    background-color: rgb(36, 36, 36);
+  }
+  
+  .container .konten .organization b {
+    color: #f4abc4;
+  }
+  
+  .container .konten .social-media {
+    float: left;
+    box-shadow: 4px 4px 4px rgb(73, 73, 73);
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    width: 500px;
+    height: 165px;
+    background-color: rgb(36, 36, 36);
+  }
+  
+  .container .konten .skills {
+    margin-left: 49%;
+    box-shadow: 4px 4px 4px rgb(73, 73, 73);
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    background-color: rgb(36, 36, 36);
+  }
+  
+  .container .konten .skills table {
+    color: #f4abc4;
+  }
+  
+  .container .konten .contact-me {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgb(73, 73, 73);
+    background-color: #f4abc4;
+    border: 5px solid rgb(36, 36, 36);
+    border-radius: 20px;
+    width: 100%;
+  }
+  
+  
+  .clear {
+    clear: both;
+  }
